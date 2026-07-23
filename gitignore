@@ -1,0 +1,25 @@
+# Documentos de referência e propostas reais — NUNCA versionar.
+# Casos reais podem conter dados de terceiros. Só exemplos sintéticos entram no repo.
+reference-docs/*
+!reference-docs/.gitkeep
+!reference-docs/README.md
+
+# Saídas geradas pelo agente a partir de casos reais
+outputs/
+*.real.json
+*.internal.*
+
+# Arquivos de escritório que costumam ser as fontes reais
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+# (exemplos sintéticos, se precisarem desses formatos, entram em examples/ com sufixo .sample)
+!examples/*.sample.*
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
