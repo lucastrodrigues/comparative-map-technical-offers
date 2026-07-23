@@ -1,5 +1,4 @@
 # comparative-map-technical-offers
-# comparative-map-technical-offers
 
 Agente de IA (multi-etapas) para montar **mapas comparativos técnicos** de propostas de fornecedores contra um documento de referência (edital, folha de dados, especificação ou RFI).
 
